@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 10, 2017 at 01:10 AM
+-- Generation Time: Feb 11, 2017 at 12:50 PM
 -- Server version: 10.1.21-MariaDB
 -- PHP Version: 7.1.1
 
@@ -100,7 +100,13 @@ INSERT INTO `mallar` (`id`, `malin_adi`, `qiymeti`, `seksiya`) VALUES
 (12, 'Qogal', 1, 4),
 (13, 'Xachapuri', 1, 4),
 (14, 'Shekerbura', 1, 4),
-(15, 'Bulka', 2, 4);
+(15, 'Bulka', 2, 4),
+(16, 'Telefon', 1, 3),
+(17, 'Kabel', 2, 3),
+(18, 'Avterka', 2, 3),
+(19, 'Shurup', 2, 3),
+(20, 'Shayba', 4, 3),
+(21, 'Tekish', 6, 3);
 
 -- --------------------------------------------------------
 
@@ -151,7 +157,13 @@ INSERT INTO `sifarish` (`id`, `aldigi_mal`, `alici`) VALUES
 (7, 10, 2),
 (8, 11, 2),
 (9, 15, 3),
-(10, 14, 3);
+(10, 14, 3),
+(11, 16, 2),
+(12, 17, 2),
+(13, 18, 2),
+(14, 19, 2),
+(15, 20, 2),
+(16, 21, 2);
 
 --
 -- Indexes for dumped tables
@@ -209,7 +221,7 @@ ALTER TABLE `ishci`
 -- AUTO_INCREMENT for table `mallar`
 --
 ALTER TABLE `mallar`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=22;
 --
 -- AUTO_INCREMENT for table `seksiya`
 --
@@ -219,7 +231,7 @@ ALTER TABLE `seksiya`
 -- AUTO_INCREMENT for table `sifarish`
 --
 ALTER TABLE `sifarish`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
 -- Constraints for dumped tables
 --
